@@ -8,7 +8,7 @@ It's a working implementation of a Bloom Filter, which only takes std::string as
 
 # Build instructions
 * Clone this repo
-* cmake in root of cloned repo
+* cmake src in root of cloned repo
 * make
 
 Run using ./InBloom in build directory. 

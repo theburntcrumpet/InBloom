@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+project (InBloom)
+set (CMAKE_CXX_STANDARD 11)
+add_library(BloomFilter BloomFilter.cpp)
+add_executable(InBloom InBloom.cpp)
+target_link_libraries(InBloom BloomFilter)
